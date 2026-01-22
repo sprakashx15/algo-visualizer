@@ -1,12 +1,12 @@
-#🧭 Pathfinding Algorithm Visualizer
+# 🧭 Pathfinding Algorithm Visualizer
 
 A pathfinding visualizer built using Tkinter, designed to visually demonstrate how classic graph algorithms explore a maze and find (or fail to find) a path between two points.
 
 This project focuses on clarity, interactivity, and clean visualization rather than raw performance.
+ 
+## ✨ Features
 
-##✨ Features
-
-##🔍 Pathfinding Algorithms
+## 🔍 Pathfinding Algorithms
 
 Breadth-First Search (BFS)
 
@@ -14,7 +14,7 @@ Depth-First Search (DFS)
 
 A* Search (with Manhattan heuristic)
 
-##🧱 Maze & Grid
+## 🧱 Maze & Grid
 
 Interactive grid (click to add/remove walls)
 
@@ -22,7 +22,7 @@ Random maze generation
 
 Start & End node placement
 
-##🎛 Visualization Controls
+## 🎛 Visualization Controls
 
 Adjustable speed slider
 
@@ -32,7 +32,7 @@ Full grid reset
 
 Line-based path rendering (clean & readable)
 
-#🖼 Screenshots
+# 🖼 Screenshots
 
 (Add screenshots or a GIF here)
 
@@ -40,7 +40,7 @@ Example:
 
 ![Pathfinding Visualizer Demo](screenshots/demo.gif)
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Language: Python 3
 
@@ -52,7 +52,7 @@ Data Structures: Queue, Stack, Priority Queue (heap)
 
 No external dependencies required.
 
-▶️ How to Run
+## ▶️ How to Run
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/algo-visualizer.git
 cd algo-visualizer
@@ -63,7 +63,7 @@ python main.py
 
 Make sure Python 3.8+ is installed.
 
-🧑‍🧭 How to Use
+## 🧑‍🧭 How to Use
 
 Left click on the grid:
 
@@ -86,21 +86,30 @@ Clear path or reset grid
 If no valid path exists, a message will be displayed.
 
 
-##📌 Project Structure
+## 📌 Project Structure
+
 algo_visualizer/
+
 ├── main.py
+
 ├── grid.py
+
 ├── cell.py
+
 ├── algorithms/
+
 │   ├── bfs.py
+
 │   ├── dfs.py
+
 │   └── astar.py
+
 └── README.md
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 Inspired by classic pathfinding visualizers and graph algorithm demonstrations.
 
-##📄 License
+## 📄 License
 
 This project is open-source and free to use for learning and educational purposes.
